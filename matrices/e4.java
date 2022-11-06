@@ -6,12 +6,13 @@ public class e4 {
     static public int v[][] = new int[20][20];
 
     static public void llenar(int n, int m){
-        Scanner sc = new Scanner(System.in);
-        for(int i=1; i<=n;i++){
-            System.out.println("");
-            for(int j=1;j<=m;j++){
-                System.out.print("v["+i+"]["+j+"] = ");
-                v[i][j] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            for(int i=1; i<=n;i++){
+                System.out.println("");
+                for(int j=1;j<=m;j++){
+                    System.out.print("v["+i+"]["+j+"] = ");
+                    v[i][j] = sc.nextInt();
+                }
             }
         }
     }
