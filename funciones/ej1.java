@@ -1,4 +1,4 @@
-package com.mycompany.lab111;
+package com.mycompany.lab111.funciones;
 import java.util.Scanner;
 public class ej1 {
     static int sigf(int w){   

@@ -1,4 +1,7 @@
-package com.mycompany.lab111;
+// Rotar el segundo mayor a la derecha al rededor del lote
+// ej: n = 5, x = 124, x = 234, x = 1367, x = 2456, x = 32527
+//             154      224     1337    2466    32527
+package com.mycompany.lab111.funciones;
 // @autor cris
 import java.util.Scanner;
 public class ej4 {

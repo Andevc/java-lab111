@@ -1,4 +1,6 @@
-package com.mycompany.lab111;
+//Serie sube y baja con eco
+// 1 2 3 2 1 1 2 3 2 1 1 2 3 2 ...
+package com.mycompany.lab111.funciones;
 import java.util.Scanner;
 public class ej3 {
     public static void main(String[] args) {

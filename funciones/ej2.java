@@ -1,4 +1,4 @@
-package com.mycompany.lab111;
+package com.mycompany.lab111.funciones;
 import java.util.Scanner;
 public class ej2 {
     static int clasicap(int w){

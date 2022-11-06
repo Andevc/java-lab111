@@ -1,4 +1,8 @@
-package com.mycompany.lab111;
+/* Lenar un vector a(n) con valores numericos, recorrer a(n) hasta encontrar el elemnto menor y eliminarlo,
+ * el elemento menor almacenarlo en el vector b(n). Repetir el proceso hasta que el vector a(n) que de vacio 
+ * (usar modulos: menor y  eliminar)
+ */
+package com.mycompany.lab111.arrays;
 import java.util.Scanner;
 public class p19_e2 {
     

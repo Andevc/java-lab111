@@ -1,5 +1,5 @@
 // rotar de k en k
-package com.mycompany.lab111;
+package com.mycompany.lab111.arrays;
 import java.util.Scanner;
 public class rotk {
     static public int v[] = new int[20];
