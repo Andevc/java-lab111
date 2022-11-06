@@ -47,17 +47,19 @@ public class e2 {
         }
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("n: ");
-        int n = sc.nextInt();
-        System.out.print("m: ");
-        int m = sc.nextInt();
-        llenar(n,m);
-        System.out.println("");
-        mostrar(n, m);
-        System.out.println("\n");
-        mayor(n, m);
-        mostarw(n);
-        System.out.println("\n");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("n: ");
+            int n = sc.nextInt();
+            System.out.print("m: ");
+            int m = sc.nextInt();
+            llenar(n,m);
+            System.out.println("");
+            mostrar(n, m);
+            System.out.println("\n");
+            mayor(n, m);
+            mostarw(n);
+            System.out.println("\n");
+        }
+        
     }
 }

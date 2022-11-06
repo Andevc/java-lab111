@@ -1,4 +1,4 @@
-package com.mycompany.lab111.vec;
+package com.mycompany.lab111;
 import java.util.Scanner;
 public class p2_e2 {
     static public String a[] = new String[20];

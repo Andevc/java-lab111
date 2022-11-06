@@ -1,8 +1,8 @@
 // Dado un vextor, con colores, ordenar en cada palabra las consonantes.
 
-package com.mycompany.lab111.vec;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
-public class e4_d5 {
+public class d5_e4 {
     static public String v[] = new String[20];
     static public String vv[] = new String[20];
 

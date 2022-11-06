@@ -1,7 +1,7 @@
 // Llenar un vector a(n) con valores alfabeticos, eliminar consonantes de posiciones pares.
-package com.mycompany.lab111.vec;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
-public class e2_d5 {
+public class d5_e2 {
     static public String a[] = new String[20];
     static public void llenar(int n){
         try (Scanner sc = new Scanner(System.in)) {

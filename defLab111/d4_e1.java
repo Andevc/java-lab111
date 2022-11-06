@@ -1,6 +1,6 @@
 // Ordenar un numero con los digitos impares descendentes
 
-package com.mycompany.lab111;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
 public class d4_e1 {
     static int sacar_impares(int w){

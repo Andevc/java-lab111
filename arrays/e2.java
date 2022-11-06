@@ -1,4 +1,4 @@
-// LLenar y Mostrar Vctores Cadenas
+// LLenar y Mostrar Vectores Cadenas
 package com.mycompany.lab111.arrays;
 import java.util.Scanner;
 public class e2 {

@@ -1,7 +1,7 @@
 // dado un vector rotar de k en k rangos a la izquierda.
-package com.mycompany.lab111.vec;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
-public class e1_d5 {
+public class d5_e1 {
     
     static public int v[] = new int[20];
     static public int vaux[] = new int[20];

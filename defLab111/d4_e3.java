@@ -2,7 +2,7 @@
 // n = 4  x = 1234 , 564231, 1452, 3245231 -->  ouput = 1 , 2, 34, 564, 23114, 52324523
 // deveulve el digito formado y elresiduo , se usa cd = math.log10(d) == c  //c = a+b
 // hacemos una composicion o sea primero descomponemos y despues componemos
-package com.mycompany.lab111;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
 public class d4_e3 {
     static public int s1,s2,s3;

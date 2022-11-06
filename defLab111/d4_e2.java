@@ -1,4 +1,4 @@
-package com.mycompany.lab111;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
 public class d4_e2 {
     static int invertir_numero(int w, int p){

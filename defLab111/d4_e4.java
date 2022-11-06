@@ -1,7 +1,7 @@
 // dada una frase eliminar la segunda vocal de las palabras pares 
 //  ejm b = "hola estamos comiendo mucho" 
 //  ouput = "hola estmos comiendo much"
-package com.mycompany.lab111;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
 public class d4_e4 {
     static int contar_palabra(String w){

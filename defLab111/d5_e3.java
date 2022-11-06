@@ -1,8 +1,8 @@
 // ordenar un veector con el metodo merge
 
-package com.mycompany.lab111.vec;
+package com.mycompany.lab111.defLab111;
 import java.util.Scanner;
-public class e3_d5 {
+public class d5_e3 {
     static public int v[] = new int[20];
 
     static public void llenar(int n){
