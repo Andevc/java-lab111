@@ -1,3 +1,5 @@
+//Dado un refran, cambiar por una vocal x, todas las vocales
+
 package com.mycompany.lab111.string;
 import java.util.Scanner;
 public class ej6 {

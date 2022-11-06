@@ -21,7 +21,7 @@ public class hanoi {
     }
 } */
 
-package com.mycompany.lab111.expo;
+package com.mycompany.lab111.torres_de_hanoi;
 import java.util.*;
 public class hanoi_recursivo {
     public static void main(String[] args) {

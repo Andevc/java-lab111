@@ -1,4 +1,4 @@
-package com.mycompany.lab111.expo; //PARA EJECUTARLO SE DEBE CAMBIAR LA DIRECCION DE PACKAGE
+package com.mycompany.lab111.torres_de_hanoi; //PARA EJECUTARLO SE DEBE CAMBIAR LA DIRECCION DE PACKAGE
 import java.util.*;
 public class Hanoi {
     static public int disco(int i) { // DEVUELVE EL DISCO PARA SER MOVIDO EN i

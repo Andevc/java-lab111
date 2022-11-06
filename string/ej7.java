@@ -1,3 +1,4 @@
+// rotar las vocales a la derecha de las posiciones impares y mostrar la palabra que tiene las 5 vocales
 package com.mycompany.lab111.string;
 import java.util.Scanner;
 public class ej7 {

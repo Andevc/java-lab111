@@ -1,5 +1,4 @@
 package com.mycompany.lab111;
- //  @author cris
 import java.util.Scanner;
 public class ej1 {
     static int sigf(int w){   
@@ -76,9 +75,7 @@ public class ej1 {
             }else{}
          }
           return r;  
-            
     }
-    
     public static void main(String[] args) {
         int n,x,i,sig,den;
         double expo,s;

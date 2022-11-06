@@ -6,12 +6,13 @@ public class e2 {
     static public int w[] = new int[20];
     
     static public void llenar(int n, int m){
-        Scanner sc = new Scanner(System.in);
-        for(int i=1; i<=n;i++){
-            System.out.println("");
-            for(int j=1;j<=m;j++){
-                System.out.print("v["+i+"]["+j+"] = ");
-                v[i][j] = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            for(int i=1; i<=n;i++){
+                System.out.println("");
+                for(int j=1;j<=m;j++){
+                    System.out.print("v["+i+"]["+j+"] = ");
+                    v[i][j] = sc.nextInt();
+                }
             }
         }
     }
@@ -59,7 +60,6 @@ public class e2 {
             mayor(n, m);
             mostarw(n);
             System.out.println("\n");
-        }
-        
+        } 
     }
 }

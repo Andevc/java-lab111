@@ -1,3 +1,6 @@
+/* Dada una frase, escogar las palabras ares y cambiar a mayusculas, 
+mostrar la nueva frase, luego  extraer la siguiente k ésima e invertirla
+y mostar la nueva frase, luego extraer la j ésima palabra rotar las vocales a la derecha y mostrar la nueva frase */
 package com.mycompany.lab111.string;
 import java.util.Scanner;
 public class ej4 {

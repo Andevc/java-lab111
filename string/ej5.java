@@ -1,3 +1,4 @@
+// Dada una frase eliminar las vocales que mas se repiten mas de una vez de las palabras en posiciones impares
 package com.mycompany.lab111.string;
 import java.util.Scanner;
 public class ej5 {
