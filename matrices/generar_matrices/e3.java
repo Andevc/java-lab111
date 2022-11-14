@@ -1,3 +1,5 @@
+// Matriz en U 
+
 package com.mycompany.lab111.matrices.generar_matrices; 
 import java.util.Scanner;
 public class e3 {

@@ -45,8 +45,6 @@ public class e4 {
             do{
                 System.out.println("1. Matriz X 1");
                 System.out.println("2. Matriz X 2");
-                System.out.println("3. Matriz X 3");
-                System.out.println("4. Matriz X 4");
                 System.out.println("5. Salir");
                 op = sc.nextInt();
                 switch(op){
@@ -58,9 +56,9 @@ public class e4 {
                             matriz_x2(n);
                             mostrar(n);
                             break;
-
                 }
             }while(op != 5);
+            
             System.out.println("\n");
         }
     }
