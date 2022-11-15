@@ -1,3 +1,4 @@
+//@Cristhian Escobar - Andev
 package com.mycompany.lab111.matrices;
 import java.util.Scanner;
 public class buscamina {
