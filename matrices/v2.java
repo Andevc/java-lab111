@@ -65,9 +65,6 @@ public class v2 {
     }
 
     public static void main(String[] args) {
-        
-    
-
         try(Scanner sc = new Scanner(System.in)){
             int n,x,y,c=0,z=0,i=50;
             //System.out.print("n: ");
