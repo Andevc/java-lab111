@@ -1,10 +1,10 @@
 //@Cristhian Escobar - Andev
 package com.mycompany.lab111.matrices;
 import java.util.Scanner;
-public class buscamina {
+public class v2 {
 
-    static public int v[][] = new int[11][11];
-    static public int w[][] = new int[11][11];
+    static public String v[][] = new String[20][20];
+    static public String w[][] = new String[20][20];
 // Mostrar matriz con las minas    
     static public void mostrar(int n){
         for(int i=1; i<=n;i++){
@@ -34,7 +34,7 @@ public class buscamina {
             double x = Math.random()*n;
             double y = Math.random()*n;
             if  (x!=0 && y!=0 && x!=n-1 && y!=n-1){
-                v[(int)x][(int)y] = 99;
+                v[(int)x][(int)y] = "*";
                 c = c+1;
             }
         }
@@ -43,24 +43,38 @@ public class buscamina {
 
     static public int conteo_tnt(int x, int y){
         int c = 0;
-        if(v[x-1][y-1] == 99){c= c+1;}
-        if(v[x-1][y] == 99){c= c+1;}
-        if(v[x-1][y+1] == 99){c= c+1;}
-        if(v[x][y-1] == 99){c= c+1;}
-        if(v[x][y+1] == 99){c= c+1;}
-        if(v[x+1][y-1] == 99){c= c+1;}
-        if(v[x+1][y] == 99){c= c+1;}
-        if(v[x+1][y+1] == 99){c= c+1;}
+        if(v[x-1][y-1].equals("*")){c= c+1;}
+        if(v[x-1][y].equals("*")){c= c+1;}
+        if(v[x-1][y+1].equals("*")){c= c+1;}
+        if(v[x][y-1].equals("*")){c= c+1;}
+        if(v[x][y+1].equals("*")){c= c+1;}
+        if(v[x+1][y-1].equals("*")){c= c+1;}
+        if(v[x+1][y].equals("*")){c= c+1;}
+        if(v[x+1][y+1].equals("*")){c= c+1;}
         return c;
     }
 
 
+    static public void llenar(int n){
+        for(int i=0; i<=n; i++){
+            for(int j = 0; j<=n; j++){
+                v[i][j] = "-";
+                w[i][j] = "-";
+            }
+        }
+    }
+
     public static void main(String[] args) {
+        
+    
+
         try(Scanner sc = new Scanner(System.in)){
             int n,x,y,c=0,z=0,i=50;
-            System.out.print("n: ");
-            n = sc.nextInt(); // Tamaño de la matriz del juego 
+            //System.out.print("n: ");
+            n = 10;// Tamaño de la matriz del juego 
+            llenar(n);
             tnt(n);            
+            mostrar(n);
             System.out.println("\n-x--------------------------------------------------x-");
             System.out.println("\t\tBUSCA MINAS");
             System.out.println("-x--------------------------------------------------x-");
@@ -74,16 +88,16 @@ public class buscamina {
                 System.out.println("");
                 System.out.print("\tColumna: ");
                 y = sc.nextInt();
-                if(v[x][y] == 99){
+                if(v[x][y].equals("*")){
                     z = 1;
-                    System.out.println("\n-x--------------------------------------------------x-");
+                    System.out.println("\n-x--------------------------------------------x-");
                     System.out.println("-x-------- TODAS LAS MINAS EXPLOTARON --------x-");
-                    System.out.println("-x--------------------------------------------------x-");
+                    System.out.println("-x--------------------------------------------x-");
                     mostrar(n);
                     System.out.println("\n-x--------- GAME OVER ----------x-\n");
                 }else{
                     c = conteo_tnt(x, y);
-                    w[x][y] = 11;
+                    w[x][y] = "+";
                     System.out.println("Hay "+c+" minas al rededor");
                     mostrarw(n);
                     i = i - 1;
@@ -101,3 +115,4 @@ public class buscamina {
     }
 
 }
+
