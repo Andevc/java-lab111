@@ -104,7 +104,7 @@ public class BuscaMinasCadenas {
                 if (k == 1) {
                     llenar(n);
                     tnt(n);
-                    mostrar(n);
+                    //mostrar(n);
                     System.out.println("\n-x--------------------------------------------------x-");
                     System.out.println("\t\tBUSCA MINAS");
                     System.out.println("-x--------------------------------------------------x-");
