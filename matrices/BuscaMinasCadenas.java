@@ -1,7 +1,7 @@
 //@Cristhian Escobar - Andev
 package com.mycompany.lab111.matrices;
 import java.util.Scanner;
-public class v2 {
+public class BuscaMinasCadenas {
 
     static public String v[][] = new String[20][20];
     static public String w[][] = new String[20][20];
